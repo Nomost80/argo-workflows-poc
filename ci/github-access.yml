@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: github-access
+type: Opaque
+data:
+  webhook_secret: YOUR_BASE64_ENCODED_VALUE
+  token: YOUR_BASE64_ENCODED_VALUE
